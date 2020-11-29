@@ -19,7 +19,6 @@ const friend2messages : Map<string, Message[]> = new Map([
   [DuckID, [ 
     { id: 'aaa', text: 'Hi John! How are you?', isAuthor: false },
     { id: '12', text: 'Hey Duck. Thanks for asking. I\'m good.', isAuthor: true },
-    { id: 'b2bb', text: 'Hey Duck. Thanks for asking. I\'m good.', isAuthor: true },
   ]],
   [JaneID, [ 
     { id: 'asd', text: 'Hi Jane! Have you senn this movie ...', isAuthor: false },

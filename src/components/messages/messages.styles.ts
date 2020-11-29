@@ -14,7 +14,10 @@ export const MessageWrapperStyled = styled.div<{ isAuthor?: boolean }>`
 `;
 
 export const MessageStyled = styled.span<{ isAuthor?: boolean }>`
+  display: inline-block;
+  margin: 0px;
   padding: 10px;
   border-radius: 15px;
-  background-color: ${props => props.isAuthor ? '#e7f4e7' : '#e8e8e8'}
+  background-color: ${props => props.isAuthor ? '#e7f4e7' : '#e8e8e8'};
+  white-space: pre-wrap;
 `;

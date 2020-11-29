@@ -12,7 +12,7 @@ export const AppMainStyled = styled.div`
 `;
 
 export const AppFriendsWrapperStyled = styled.div`
-  flex-grow: 1;
+  width: 250px;
   background: #fefefe;
   padding: 10px;
   box-sizing: border-box;
@@ -21,12 +21,12 @@ export const AppFriendsWrapperStyled = styled.div`
 export const AppMessagerWrapperStyled = styled.div`
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
   padding: 10px;
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
   background: #fefefe;
+  width: 600px;
 `;
 
 export const AppSelectedFriendStyled = styled.div`
